@@ -1,0 +1,651 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All ============================ */
+
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ==================== General CSS For All End Here ======================== */
+
+/* =========================== CSS For Navbar =============================== */
+
+.header-area {
+	padding-top: 70px;
+	background: #87509c;
+}
+
+.navbar {
+	background: #87509c;
+	border: 0px;
+	padding: 20px 0px;
+}
+
+.navbar-brand {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 147.5px;
+	text-align: center;
+}
+
+.navbar-brand img { 
+	margin-top: -10px;
+	padding: 0px;
+}
+
+.nav {
+	font-weight: 400;
+	padding: 5px 15px 5px 0px;
+}
+
+.nav li {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	margin-left: 5px;
+	
+}
+
+.nav li a {
+	color: white !important;
+	padding: 10px 20px;
+	border: 1px solid #593B7A;
+	border-radius: 5px;
+}
+
+.nav li.active a {
+	background: #643a79 !important;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.nav li a:hover {
+	background: #643a79 !important;
+	border-radius: 5px;
+}
+
+#sticky {
+	width: 100%;
+	transition: 3s;
+}
+
+#sticky.stick {
+	margin-top: 0 !important;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	box-shadow: 0px 0px 50px blue;
+	animation-delay: 5s;
+	background: #eb7d4b;
+}
+
+/* ======================== Navbar CSS End Here ============================= */
+
+/* ======================== CSS For Header Text ============================= */
+
+.header-slider {
+	color: white;
+	padding: 120px 0px;
+	text-align: center;
+}
+
+.header-text h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0px auto;
+	width: 65%;
+}
+
+.header-text button {
+	background: #eb7d4b;
+	border-bottom: 3px solid #c86a40;
+	border-left: 1px solid #eb7d4b;
+	border-radius: 4px;
+	border-right: 1px solid #eb7d4b;
+	border-top: 1px solid #eb7d4b;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 40px;
+	padding: 13px 55px;
+	transition: all 1s;
+}
+
+.header-text button:hover {
+	background: #c36135;
+	border-bottom: 3px solid #aa542e;
+	border-left: 1px solid #c86a40;
+	border-radius: 4px;
+	border-right: 1px solid #c86a40;
+	border-top: 1px solid #c86a40;
+	color: white;
+}
+
+/* ===================== Header Text CSS End Here =========================== */
+
+/* ======================= CSS For Services Area ============================ */
+
+.services-area {
+	background: #17c2a4;
+	color: white;
+	margin: 0px;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.services-text h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 2px;
+}
+
+.services-text hr {
+	background: #14a58c;
+	border: 0px;
+	height: 3px;
+	width: 80px;
+}
+
+.services-text p {
+	color: #c3e6e0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px auto;
+	padding: 0px;
+	width: 50%;
+}
+
+.sub-services {
+	margin-top: 4.5%;
+}
+
+.sub-services-text img {
+	margin: 0px auto;
+}
+
+.sub-services-text h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	padding: 13% 0% 5% 0%;
+}
+
+.sub-services-text p {
+	color: #c3e6e0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0px;
+	padding: 0px 30px;
+}
+
+/* ==================== Services Area CSS End Here ========================== */
+
+/* ========================= CSS For Team Area ============================== */
+
+.team-area {
+	background: #e7f1f8;
+	color: black;
+	margin: 0px;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.circle-text h1 {
+	color: #3c4761;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 2px;
+}
+
+.circle-text hr {
+	background: #c8d9e5;
+	border: 0px;
+	height: 3px;
+	width: 80px;
+}
+
+.circle-text p {
+	color: #3c4761;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sub-circle {
+	margin-top: 3.5%;
+}
+
+.sub-circle-text {
+	transition: all 1s;
+	padding: 10px 0px;
+}
+
+.sub-circle-text:hover {
+	box-shadow: 0px 0px 20px blue;
+	border: 1px solid #bdd1df;
+}
+
+.sub-circle-text img {
+	margin: 0px auto;
+}
+
+.sub-circle-text h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 13% 0% 2% 0%;
+	color: #3c4761;
+}
+
+.sub-circle-text a {
+	text-decoration: none;
+	color: #30bae7;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.sub-circle-text p {
+	color: #3c4761;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0px;
+	padding: 15px 30px 0px 30px;
+}
+
+.sub-circle-text i {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	padding-top: 10px;
+	background: #bdd1df;
+	color: white;
+	margin-top: 25px;
+	transition: all 1s;
+}
+
+.sub-circle-text .fa-facebook:hover {
+	background: #2E428B;
+	color: white;
+}
+
+.sub-circle-text .fa-twitter:hover {
+	background: #3093DF;
+	color: white;
+}
+
+.sub-circle-text .fa-linkedin:hover {
+	background: #186CB6;
+	color: white;
+}
+
+.sub-circle-text .fa-envelope:hover {
+	background: #D14635;
+	color: white;
+}
+
+/* ========================= Team CSS End Here ============================== */
+
+/* ======================== CSS For Skills Area ============================= */
+
+.skills-area {
+	text-align: center;
+	background: #ffffff;
+	margin: 0px;
+	padding: 100px 0px;
+}
+
+.skills-text h1 {
+	color: #3c4761;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 3px;
+}
+
+.skills-text hr {
+	background: #dfe8ed;
+	border: 0px;
+	height: 3px;
+	width: 80px;
+}
+
+.skills-text p {
+	color: #3c4761;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px auto;
+	padding: 0px;
+	width: 50%;
+}
+
+.circle {
+	margin: 20% 0% 0% 0%;
+	position: relative;
+	text-align: center;
+}
+
+.circle canvas {
+	vertical-align: top;
+	margin-bottom: 5%;
+}
+
+.circle strong {
+	position: absolute;
+	top: 26.5%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	color: red;
+	margin: 0px;
+}
+
+.circle strong i {
+	font-style: normal;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.circle h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #3c4761;
+}
+
+/* ======================== Skills CSS End Here ============================= */
+
+/* ====================== CSS For Portfolio Area ============================ */
+
+.portfolio-area {
+	text-align: center;
+	margin: 0px;
+	padding: 100px 0px;
+	background: #ffdd99;
+	min-height: 100vh;
+}
+
+.portfolio-text h1 {
+	color: #393939;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 3px;
+}
+
+.portfolio-text hr {
+	background: #e5c37f;
+	border: 0px;
+	height: 3px;
+	width: 80px;
+}
+
+.portfolio-text p {
+	color: #534f46;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px auto;
+	padding-bottom: 15px;
+	width: 50%;
+}
+
+.portfolio-button button {
+	background: #17c2a4;
+	border-bottom: 3px solid #14a58c;
+	border-left: 1px solid #17c2a4;
+	border-radius: 4px;
+	border-right: 1px solid #17c2a4;
+	border-top: 1px solid #17c2a4;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 15px 55px;
+	color: white;
+	transition: all 1s;
+	margin-top: -20px;
+}
+
+.portfolio-button button:hover {
+	background: #14a58c;
+	border-bottom: 3px solid #108d77;
+	border-left: 1px solid #14a58c;
+	border-right: 1px solid #14a58c;
+	border-top: 1px solid #14a58c;
+	color: white;
+}
+
+/* ====================== Portfolio CSS End Here ============================ */
+
+/* ======================== CSS For About Us Area =========================== */
+
+.about-area {
+	text-align: center;
+	background: #d74680;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 100px 0px;
+}
+
+.about-text h1 {
+	color: #ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 3px;
+}
+
+.about-text hr {
+	background: #b73c6d;
+	border: 0px;
+	height: 3px;
+	width: 80px;
+}
+
+.about-text p {
+	color: #ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px auto;
+	padding-bottom: 6%;
+	width: 50%;
+}
+
+.quote-bottom {
+	margin-bottom: 100px;
+}
+
+.about-img img {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.about-img-text {
+	font-family: 'Titillium Web', sans-serif;
+	text-align: left;
+}
+
+.about-img-text p {
+	font-weight: 400i;
+	font-style: italic;
+	font-size: 20px;
+	padding: 0px 20px 0px 0px;
+	line-height: 35px;
+	color: #f1d1de;
+}
+
+.about-img-text h3 {
+	font-size: 21px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 20px 0px 3px 0px;
+	color: white;
+}
+
+.about-img-text a {
+	text-decoration: none;
+	font-weight: 400;
+	color: #fac996;
+	font-size: 16px;
+}
+
+/* ========================== About Us End Here ============================= */
+
+/* ========================= CSS For Touch Area ============================= */
+
+.touch-area {
+	text-align: center;
+	background: #3c5499;
+	margin: 0px;
+	padding: 100px 0px;
+	color: white;
+}
+
+.touch-text h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 3px;
+}
+
+.touch-text hr {
+	background: #273a71;
+	border: 0px;
+	height: 3px;
+	width: 80px;
+}
+
+.touch-text p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	margin: 0px auto;
+	padding-bottom: 40px;
+	width: 65%;
+}
+
+.touch-form {
+	font-family: 'Titillium Web', sans-serif;
+	padding: 10px;
+}
+
+.touch-form .line-form .form-control {
+	background: #273a71;
+	border: 1px solid #273a71;
+	font-size: 17px;
+	font-weight: 400;
+	color: white;
+	border-radius: 4px;
+	padding: 20px 15px;
+	margin-bottom: 20px;
+}
+
+.touch-form .single-form .form-control {
+	background: #273a71;
+	border: 1px solid #273a71;
+	font-size: 17px;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 4px;
+	font-weight: 400;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: white
+}
+
+.touch-form button {
+	background: #30bae7;
+	border-bottom: 3px solid #299ec5;
+	border-left: 1px solid #30bae7;
+	border-radius: 4px;
+	border-right: 1px solid #30bae7;
+	border-top: 1px solid #30bae7;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 15px 55px;
+	color: white;
+	transition: all 1s;
+	margin-top: 45px;
+}
+
+.touch-form button:hover {
+	background: #299ec5;
+	border-bottom: 3px solid #117393;
+	border-left: 1px solid #299ec5;
+	border-right: 1px solid #299ec5;
+	border-top: 1px solid #299ec5;
+	color: white;
+}
+
+/* ========================= ouch Area End Here ============================= */
+
+/* ========================= CSS For Footer Area ============================ */
+
+.footer-area {
+	text-align: center;
+	padding: 40px 0px;
+	background: #344b8e;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	border-top: 1px solid #3c5499;
+}
+
+.footer-text span {
+	padding: 0px 20px;
+	margin: 0px;
+}
+
+.footer-text span.twitter {
+	color: #30bae7;
+}
+
+.footer-text span:hover {
+	color: #30bae7;
+}
+
+/* ========================= Footer CSS End Here ============================ */
+
+/* ======================== CSS Styling End Here ============================= */

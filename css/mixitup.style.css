@@ -1,0 +1,188 @@
+2/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ========================= */
+
+/* ========================== General CSS For All ============================ */
+
+* {
+	box-sizing: border-box;
+}
+
+*:before {
+	box-sizing: border-box;
+}
+
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 3rem;
+} /* ===== This Is Only For Mix It Up Js Plugin ===================== */
+
+/* ==================== General CSS For All End Here ========================= */
+
+/* =================== CSS For Controls  And Control ========================= */
+
+.controls {
+	padding: 20px 0px 50px 0px;
+	text-align: center;
+}
+
+.control {
+	position: relative;
+	display: inline-block;
+	padding: 5px 20px;
+	border-radius: 4px;
+	margin: 0px 3px;
+	border: 0px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.btn-success {
+	background:  #ebc985;
+	color: black; 
+}
+
+.btn-success:hover {
+	background: white;
+	color: black;
+}
+
+.btn-danger {
+	background: #ebc985;
+	color: black; 
+}
+
+.btn-danger:hover {
+	background: white;
+	color: black;
+}
+
+.btn-info {
+	background: #ebc985;
+	color: black; 
+}
+
+.btn-info:hover {
+	background: white;
+	color: black;
+}
+
+.btn-warning {
+	background: #ebc985;
+	color: black; 
+}
+
+.btn-warning:hover {
+	background: white;
+	color: black;
+}
+
+.btn-primary {
+	background:  #ebc985;
+	color: black; 
+}
+
+.btn-primary:hover {
+	background: white;
+	color: black;
+}
+
+.mixitup-control-active {
+	background: #ffffff;
+	color: black;
+}
+
+/* ================== Controls  And Control End Here ========================= */
+
+/* ====================== CSS For Target Elements ============================ */
+
+.targets {
+	text-align: justify;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.targets p {
+	padding: 15px 0px 40px 0px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.mix {
+	border-radius: 2px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.mix img {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	width: 100%;
+}
+
+.gap {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* =================== Target Elements End Here ============================== */
+
+/* ================== CSS For Grid Break Points ============================== */
+
+.mix {
+	width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+}
+
+.gap {
+	width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+}
+
+@media screen and (min-width: 541px) {
+	.mix {
+		width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+	}
+	.gap {
+		width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+	}
+}
+
+@media screen and (min-width: 961px) {
+	.mix {
+		width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+	}
+	.gap {
+		width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+	}
+}
+
+@media screen and (min-width: 1281px) {
+	.mix {
+		width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+	}
+	.gap {
+		width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+	}
+}
+
+/* ================== Grid Break Points End Here ============================= */
+
+/* ===================== CSS Styling End Here ================================= */
